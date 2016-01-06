@@ -1,0 +1,15 @@
+{
+    "name": "MegaSena",
+    "alias": "megasena",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\MegaSena\\Providers\\MegaSenaServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}

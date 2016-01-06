@@ -1,0 +1,15 @@
+{
+    "name": "Lotofacil",
+    "alias": "lotofacil",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Lotofacil\\Providers\\LotofacilServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}
