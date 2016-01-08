@@ -1,11 +1,12 @@
-@extends('lotofacil::layouts.master')
+@extends('lotofacil::layouts.padrao')
 
 @section('content')
 	
-	<h1>Hello World</h1>
+	<h1>Bem vindo</h1>
+        <a href="{{ url('lotofacil/resultados') }}">Resultados</a>
 	
 	<p>
-		This view is loaded from module: {!! config('lotofacil.name') !!}
+		Este eo modulo lotofacil: {!! config('lotofacil.name') !!}
 	</p>
 
 @stop
