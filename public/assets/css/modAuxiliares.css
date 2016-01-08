@@ -1,0 +1,117 @@
+/*
+ * Modificaçao de css auxiliares
+ * #bootstrap
+ *
+ */
+
+/* 
+    Created on : 12/10/2015, 13:02:29
+    Author     : DAVID
+*/
+
+/*---------------------------------------------------
+                BOOTSTRAP
+----------------------------------------------------*/
+
+/*Menu*/
+.navbar-inverse{
+    background: #333;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #333;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #FFF;
+    border: 1px solid #333;
+    
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #333;
+}
+.nav>li {
+    width: 120px;
+    text-align: center;
+    font-family: 'lato-regular','Helvetica', 'Arial', 'sans-serif';
+    font-size:16px;
+    letter-spacing: 0.5px;
+    
+}
+
+/* Popover elemento do bootstrap*/
+.popover {
+  border: 2px solid #06F;
+  -webkit-box-shadow: 2px 1px 30px 2px rgba(0,0,0,0.7);
+  -moz-box-shadow: 2px 1px 30px 2px rgba(0,0,0,0.7);
+  box-shadow: 2px 1px 30px 2px rgba(0,0,0,0.7);
+}
+.popover.top > .arrow {
+  //border-top-color: #0066FF;
+  border-top-color: rgba(0, 102, 244, .7);
+}
+.popover.top > .arrow:after {
+  bottom: 3px;
+}
+.popover.right > .arrow {
+
+  border-right-color: rgba(0, 102, 244, .7);
+
+}
+.popover.right > .arrow:after {
+  left: 3px;
+}
+.popover.bottom > .arrow {
+  border-bottom-color: rgba(0, 102, 244, .7);
+}
+.popover.bottom > .arrow:after {
+  top: 3px;
+}
+.popover.left > .arrow {
+  border-left-color: rgba(0, 102, 244, .7);
+}
+.popover.left > .arrow:after {
+  right: 3px;
+}
+
+/*Tabelas*/
+.table>thead>tr>th{
+    //border-bottom: 1px dotted #06f;
+    border: none;
+}
+.table>tbody>tr>th{
+   // border-bottom: 1px dotted #06f;
+   border:none;
+}
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th{
+    border:none;
+    padding: 5px;
+}
+
+/*---------------------------------------------------
+                BOOTSTRAP DATEPICKER
+----------------------------------------------------*/
+.datepicker{
+    border: 2px solid #06f;
+    border-radius: 10px;
+}
+.datepicker table tr td span:hover {
+    background: #06f;
+    color:#fff;
+}
+
+.datepicker .datepicker-switch:hover,
+.datepicker .prev:hover,
+.datepicker .next:hover,
+.datepicker tfoot tr th:hover {
+  background: #06f;
+  color:#fff;
+}

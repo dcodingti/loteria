@@ -1,0 +1,61 @@
+
+/* 
+#    Criado em : 10/12/2015
+#    Author    : David Rodrigues
+#
+# Utilização do pre fico dc representa dcoding
+#
+*/
+/*---------------------------------------------------
+                 ELEMENTOS DIRETOS
+----------------------------------------------------*/
+html, body {
+    height:100%;
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+    color:#ffffff;
+    text-shadow: rgb(255, 255, 255) 0px 0px 20px;
+
+}
+/*---------------------------------------------------
+                 ELEMENTOS GERAL
+----------------------------------------------------*/
+.dc-geral{
+    min-height:100%;
+    position:relative;
+    //width:800px;
+}
+
+/*---------------------------------------------------
+                SEÇÃO SUPERIOR
+----------------------------------------------------*/
+
+/*--------------Menu-------------*/
+.menu{
+    background-color: #5A184F;
+}
+
+/*---------------------------------------------------
+                 RODAPE
+----------------------------------------------------*/
+
+
+
+.dc-footer {
+    background: #5A184F;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.dc-footer div{
+    height: 43px;
+    padding-top: 7px;
+    text-align: center;
+    font-size: 16px;
+}
