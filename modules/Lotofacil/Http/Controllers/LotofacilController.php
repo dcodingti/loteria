@@ -8,5 +8,8 @@ class LotofacilController extends Controller {
 	{
 		return view('lotofacil::index');
 	}
-	
+	public function resultados()
+	{
+		return view('lotofacil::resultados');
+	}
 }
